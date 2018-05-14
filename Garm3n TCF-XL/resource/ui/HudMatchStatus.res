@@ -267,13 +267,9 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
 		"xpos"				"c-76"
-		"xpos_hidef"		"c-150"
-		"xpos_lodef"		"c-150"
 		"ypos"				"0"	
 		"zpos"				"1"
 		"wide"				"151"
-		"wide_hidef"		"300"
-		"wide_lodef"		"300"
 		"tall"				"75"
 		"visible"			"0"
 		"enabled"			"1"
@@ -288,6 +284,7 @@
 		if_match
 		{
 			"zpos"				"5"
+			"ypos"				"-8"	
 		}
 		
 		"TimePanelValue"
@@ -295,27 +292,20 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Garm3nFontMediumShadow"
-			"font_lodef"	"Garm3nFontMediumShadow"
 			"fgcolor"		"Garm3nHUDWhite"
 			"xpos"			"2"
-			"xpos_hidef"	"114"
-			"xpos_lodef"	"114"
 			"ypos"			"11"
-			"ypos_hidef"	"15"
-			"ypos_lodef"	"18"
 			"zpos"			"3"
 			"wide"			"151"
-			"wide_lodef"	"50"
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 			
 			if_match
 			{
-				"font"			"Garm3nFontTinier"
-				"ypos"			"3"
+				"font"		"Garm3nFontTinier"
 			}
 		}	
 	}
